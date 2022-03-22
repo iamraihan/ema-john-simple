@@ -11,9 +11,9 @@ const Shop = () => {
       .then((data) => setProducts(data));
   }, []);
   const cartHandler = (product) => {
-    console.log("clicked");
     setCart([...cart, product]);
   };
+  console.log(cart);
   return (
     <div className="products">
       <div className="product-container">
@@ -26,7 +26,11 @@ const Shop = () => {
         ))}
       </div>
       <div className="cart-container">
-        <h1>Order Summery {cart.length}</h1>
+        <h1>Order Summery</h1>
+        <div className="cart-info">
+          <p className="cart-details">Selected Items: {cart.length}</p>
+          {/* <p className="cart-details">Total Price: {cart.price}</p> */}
+        </div>
       </div>
     </div>
   );
