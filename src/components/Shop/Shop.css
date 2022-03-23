@@ -11,19 +11,8 @@
 .cart-container {
   background: rgba(255, 153, 0, 0.3);
   width: 26.4rem;
-  height: 94.4rem;
 }
 .cart-container h1 {
   margin-top: 2.8rem;
   text-align: center;
 }
-.cart-info {
-  display: flex;
-  align-items: flex-start;
-  flex-direction: start;
-  margin-left: 2.3rem;
-  font-size: 1.7rem;
-}
-/* .cart-details {
-  display: block;
-} */

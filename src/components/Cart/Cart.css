@@ -1,0 +1,15 @@
+.cart {
+  padding-top: 1rem;
+  margin-left: 1.5rem;
+  position: sticky;
+  top: 0;
+}
+.cart h2 {
+  font-size: 2.5rem;
+}
+.cart p {
+  font-size: 1.7rem;
+}
+.cart h4 {
+  font-size: 2.1rem;
+}
